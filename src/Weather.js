@@ -4,9 +4,11 @@ import "./App.css";
 
 export default function Weather() {
   return (
-    <div class="weather">
-      <div class="card">
-        <div class="card-body">
+    <div className="weather">
+    <div className="container">
+
+      <div className="card">
+        <div className="card-body">
           <nav className="navbar navbar-light bg-light">
             <form className="d-flex">
               <input
@@ -52,6 +54,11 @@ export default function Weather() {
           </div>
         </div>
       </div>
+      <small>
+      <p><a href="https://github.com/deliahijon22/weather-app-react">Open-source coded</a> by Delia Hijon</p>
+    </small>
+      </div>
+      
     </div>
   );
 }

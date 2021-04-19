@@ -8,7 +8,7 @@ import "bootstrap/dist/css/bootstrap.css";
 function App() {
   return (
     <div className="app">
-      <Weather />
+      <Weather defaultCity="Berlin"/>
     </div>
   );
 }

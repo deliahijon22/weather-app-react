@@ -3,6 +3,7 @@ import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import "./Weather.css";
 import "./App.css";
+import WeatherTemperature from "./WeatherTemperature";
 
 
 export default function WeatherInfo(props){
@@ -19,14 +20,10 @@ export default function WeatherInfo(props){
                   
               </span>
               </div>
-              <span className="icon-and-forecast">{Math.round(props.data.temperature)}</span>
-
-              <span className="units">
-                <a href="/" className="celsius-temperature">
-                  °C
-                </a>
-                |<a href="/">°F</a>
-              </span>
+             
+                 <WeatherTemperature celsius={props.data.temperature} />
+                
+              
             </div>
             <div className="col-6">
               <ul className="precipitation">

@@ -1,6 +1,6 @@
 .Weather {
   margin: 20px;
-  max-width: 600px;
+  max-width: 800px;
 }
 nav.bg-light {
   background-color: white !important;
@@ -15,27 +15,24 @@ input.form-control.me-2 {
 }
 h2.main-city {
   color: #fb916f;
-  margin-left: 10px;
   margin-bottom: 0;
 }
 h3.date {
   color: #fca727;
   font-size: 23px;
-  margin-left: 10px;
 }
 p.forecast {
   color: #999fae;
   text-transform: capitalize;
   font-size: 20px;
-  margin-left: 15px;
 }
 span.icon-and-forecast {
   font-size: 40px;
-  margin-left: 15px;
 }
 span.units {
-  font-size: 20px;
-  margin-left: 0;
+  font-size: 14px;
+  position: relative;
+  top: -20px;
 }
 ul {
   list-style-type: none;
@@ -44,20 +41,17 @@ div.row {
   margin-top: 20px;
 }
 ul.precipitation {
-  font-size: 20px;
+  font-size: 17px;
   color: #999fae;
-  margin-left: -25px;
 }
 div.hour {
   font-size: 15px;
   color: #999fae;
-  margin-left: 10px;
 }
 
 div.temperature {
   font-size: 12px;
   color: #999fae;
-  margin-left: 10px;
 }
 .icon {
   display: block;
@@ -65,13 +59,9 @@ div.temperature {
   height: 48px;
   width: 48px;
 }
-.units {
-  position: relative;
-  top: -25px;
-}
 a {
   margin-left: 3px;
 }
 .btn-outline-primary {
-  margin-left: 10px;
+  margin-left: 5px;
 }

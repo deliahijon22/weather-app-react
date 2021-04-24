@@ -1,5 +1,5 @@
 .Weather canvas {
-  margin: 20px;
+  margin: 30px auto;
   max-width: 800px;
 }
 nav.bg-light {
@@ -36,6 +36,8 @@ span.units {
 }
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 div.row {
   margin-top: 20px;

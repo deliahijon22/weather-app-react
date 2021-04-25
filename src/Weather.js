@@ -55,9 +55,6 @@ export default function Weather(props) {
               <button className="btn btn-outline-success" type="submit">
                 Search
               </button>
-              <button type="button" class="btn btn-outline-primary">
-                Current
-              </button>
             </form>
             <WeatherInfo data={weatherData}/>
           </nav>

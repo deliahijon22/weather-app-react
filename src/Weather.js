@@ -56,8 +56,8 @@ export default function Weather(props) {
                 Search
               </button>
             </form>
-            <WeatherInfo data={weatherData}/>
           </nav>
+          <WeatherInfo data={weatherData}/>
          <WeatherForecast coordinates={weatherData.coordinates}/>
 
        
